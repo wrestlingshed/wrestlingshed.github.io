@@ -10,5 +10,5 @@ function youtube_parser(url){
 
 function newVid() {
   var rand = Math.floor(Math.random() * (links.length));
-  document.getElementById('video').innerHTML = "<iframe width=\"640\" height=\"360\" src=\"http://www.youtube.com/embed/" + links[rand] + "\" frameborder=\"0\" allowfullscreen></iframe>"
+  document.getElementById('video').innerHTML = "<iframe width=\"640\" height=\"360\" src=\"https://www.youtube.com/embed/" + links[rand] + "\" frameborder=\"0\" allowfullscreen></iframe>"
 }
